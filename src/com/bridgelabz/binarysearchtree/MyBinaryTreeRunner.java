@@ -8,7 +8,7 @@ public class MyBinaryTreeRunner {
 		myBinaryTree.add(30);
 		myBinaryTree.add(70);
 		int size = myBinaryTree.size();
-		System.out.println("The size of binary tree is :- ");
+		System.out.println("The size of binary tree is :- " + size);
 
 	}
 
