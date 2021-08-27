@@ -17,8 +17,12 @@ public class MyBinaryTreeRunner {
 		myBinaryTree.add(65);
 		myBinaryTree.add(63);
 		myBinaryTree.add(67);
-		int size = myBinaryTree.size();
-		System.out.println("The size of binary tree is :- " + size);
+		boolean result = myBinaryTree.search(63);
+		if (result == true) {
+			System.out.println("The node is present in binary tree.");
+		} else {
+			System.out.println("The node is absent in binary tree.");
+		}
 
 	}
 
